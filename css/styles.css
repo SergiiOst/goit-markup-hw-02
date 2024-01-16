@@ -2,7 +2,7 @@ body {
     font-family: "Roboto", sans-serif;
     color: #2E2F42;
     background-color: #FFFFFF;
-}
+     }
 a {
     text-decoration: none;
   }
@@ -15,7 +15,7 @@ header {
     padding-left: 156px;
     padding-right: 156px;
     padding-top: 24px;
-    padding-bottom: 24px;
+    padding-bottom: 24px; 
         }
   
 .logo {
@@ -42,18 +42,97 @@ header {
     display: inline-flex;
     align-items: flex-start;
     gap: 40px;
+    color: #2E2F42;
 }
+
+.nav-list .nav-link:hover, .nav-list .nav-link:focus, .nav-list .nav-link:active {
+
+    color: #404BBF;
+          }
+
+
 .address {
     display: inline-flex;
     align-items: flex-start;
     gap: 40px;
+         }
+.address .link {
+    color: #434455;
+               }
+.address .link:hover, .address .link:focus {
+color: #404BBF;
+       }
+.hero {
+    background-color: #2E2F42;
 }
-.footer {
+.button:hover, .button:focus {
+    background-color: #404BBF;
+        }
+.button {
+    background-color: #4D5AE5;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    cursor: pointer;
+        }
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+    
+    }
+h2 {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+   }
+h3 {
+    color: #2E2F42;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+   }
+.features-text {
+    color:  #434455;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+               }   
+.team {
+    background-color: #F4F4FD;
+}
+.team-list {
+    background-color: #FFFFFF;
+           }
+.img-text {
+    color:  #434455;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+           }                          
+footer {
     padding-left: 156px;
     padding-right: 1020px;
     padding-top: 100px;
     padding-bottom: 100px;
-    font-family: "Roboto", sans-serif;
     background-color: #2E2F42;
 }
 .footer-text {
