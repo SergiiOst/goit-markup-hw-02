@@ -1,6 +1,6 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #2E2F42;
+    color: #434455;
     background-color: #FFFFFF;
      }
 a {
@@ -9,22 +9,22 @@ a {
 ul {
     list-style-type: none;
    }
-header {
+/*header {
     display: flex;
     justify-content: space-between;
     padding-left: 156px;
     padding-right: 156px;
     padding-top: 24px;
     padding-bottom: 24px; 
-        }
+        } */
   
 .logo {
     color:  #4D5AE5;
     font-family: "Raleway",sans-serif;
     font-size: 18px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 21px;
+    font-weight: 500;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
@@ -49,21 +49,35 @@ header {
 
     color: #404BBF;
           }
-
-
+.nav-link {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    }          
 .address {
+    font-style: normal;
+}          
+.address-list {
     display: inline-flex;
     align-items: flex-start;
     gap: 40px;
          }
-.address .link {
+.address-list .address-link {
     color: #434455;
                }
-.address .link:hover, .address .link:focus {
+.address-link {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    }               
+.address-list .address-link:hover, .address .address-link:focus {
 color: #404BBF;
        }
 .hero {
     background-color: #2E2F42;
+}
+.hero-title {
+    line-height: 1.07;
 }
 .button:hover, .button:focus {
     background-color: #404BBF;
@@ -106,6 +120,9 @@ h3 {
     line-height: 24px;
     letter-spacing: 0.4px;
    }
+   .features-title {
+
+   }   
 .features-text {
     color:  #434455;
     font-size: 16px;
@@ -113,13 +130,35 @@ h3 {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
-               }   
+               }  
+.team-title {
+    line-height: 1.11;
+}                
 .team {
     background-color: #F4F4FD;
+}
+.team-names {
+    color: #2E2F42;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
 }
 .team-list {
     background-color: #FFFFFF;
            }
+.portfolio-title {
+    line-height: 1.11;
+    }
+.portfolio-list {
+    color: #2E2F42;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    }               
 .img-text {
     color:  #434455;
     font-size: 16px;
@@ -128,7 +167,7 @@ h3 {
     line-height: 24px;
     letter-spacing: 0.32px;
            }                          
-footer {
+.footer {
     padding-left: 156px;
     padding-right: 1020px;
     padding-top: 100px;
